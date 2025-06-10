@@ -1,0 +1,77 @@
+.App {
+  position: relative;
+  height: 100%;
+}
+
+/* Top-left “About” */
+.App-header {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  font-size: 1.75rem;
+}
+
+/* Centered container filling the viewport */
+.App-main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Large heading */
+.title {
+  margin-top: 20%;
+  font-family: 'Helvetica Neue Light', Arial, sans-serif;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.description {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centers children horizontally */
+  justify-content: center;/* centers children vertically if you give this container a height */
+  gap: 0.75rem;           /* spacing between button and error */
+  margin: 2rem 0;
+}
+
+/* Purple rounded button */
+.upload-button {
+  background-color: #C476FF;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.75rem 2rem;
+  font-size: 1.5rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+.upload-button:hover {
+  transform: scale(1.03);
+}
+
+.error-message {
+  color: salmon;
+  font-size: 0.9rem;
+  text-align: center;    /* just in case it wraps */
+  max-width: 320px;      /* prevent super-long lines */
+}
+.app-container {
+  padding: 2rem;
+  background-color: #0d0021;
+  min-height: 100vh;
+}
+
+.dashboard {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}

@@ -1,0 +1,102 @@
+.dragon-shards {
+    background-color: #1a002f;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    color: #EBD7FF;
+    font-family: 'Helvetica Neue Light', Arial, sans-serif;
+    max-width: 360px;
+  }
+  
+  .ds-title {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .ds-category {
+    margin-bottom: 1rem;
+  }
+  
+  .dc-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+    background-color: #2a0042;
+    border-radius: 0.25rem;
+  }
+  
+  .dc-label {
+    font-weight: 500;
+  }
+  
+  .dc-count {
+    font-weight: 700;
+  }
+  
+  .dc-list {
+    margin-left: 1rem;
+    overflow: hidden;
+  }
+  
+  .dc-item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(235,215,255,0.2);
+  }
+
+  .ds-filters {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .ds-filter-btn {
+    color: #EBD7FF;
+    background: transparent;
+    border: 1px solid #EBD7FF;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-weight: 500;
+  }
+  
+
+
+  .ds-filter-btn:hover {
+    background-color: rgba(235,215,255,0.1);
+  }
+  
+  .ds-filter-btn.active {
+    background-color: #EBD7FF;
+    color: #1a002f;
+    font-weight: 600;
+  }
+  
+
+  .dc-item:last-child {
+    border-bottom: none;
+  }
+  
+  .dc-rarity {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    margin-left: 0.5rem;
+  }
+
+  .dc-item.dc-rarity-base {
+    background: linear-gradient(90deg, rgba(95, 156, 68, 0) 0%, rgb(95, 156, 68) 100%);
+  }
+
+  .dc-item.dc-rarity-super {
+    background: linear-gradient(90deg, rgba(98, 152, 196, 0) 0%, rgba(98, 152, 196, 1) 100%);
+  }
+
+  .dc-item.dc-rarity-elite {
+    background: linear-gradient(90deg, rgba(196, 118, 255, 0) 0%, rgba(196, 118, 255, 1) 100%);
+  }
+
+  .dc-item.dc-rarity-rare-elite {
+    background: linear-gradient(90deg, rgba(255, 215, 0, 0) 0%, rgb(177, 153, 16) 100%);
+  }

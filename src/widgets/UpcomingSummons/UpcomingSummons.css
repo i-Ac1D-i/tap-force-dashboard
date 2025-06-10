@@ -1,0 +1,93 @@
+.upcoming-summons {
+  background-color: #1a002f;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  color: #EBD7FF;
+  font-family: 'Helvetica Neue Light', Arial, sans-serif;
+}
+
+.us-title {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.us-filters {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.us-filter-btn {
+  background: transparent;
+  border: 1px solid #EBD7FF;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.us-filter-btn:hover {
+  background-color: rgba(235,215,255,0.1);
+}
+
+.us-filter-btn {
+  color: #EBD7FF;
+  font-weight: 500;  
+}
+
+.us-filter-btn.active {
+  background-color: #EBD7FF;
+  color: #1a002f;
+  font-weight: 600;
+}
+
+.summon-category {
+  margin-bottom: 1rem;
+}
+
+.sc-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+  background-color: #2a0042;
+  border-radius: 0.25rem;
+}
+
+.sc-label {
+  font-weight: 500;
+}
+
+.sc-count {
+  font-weight: 700;
+}
+
+.sc-list {
+  margin-left: 1rem;
+  overflow: hidden;
+}
+
+.sc-item {
+  padding: 0.5rem 0;
+  margin-bottom: 0.25rem;
+  border-radius: 0.25rem;
+  list-style: none;
+}
+
+.sc-item:last-child {
+  margin-bottom: 0;
+}
+  /* Rarity-based gradients */
+  .sc-item.rarity-base {
+    background: linear-gradient(90deg, rgba(95, 156, 68, 0) 0%, rgb(95, 156, 68) 100%);
+  }
+  .sc-item.rarity-super {
+    background: linear-gradient(90deg, rgba(98, 152, 196, 0) 0%, rgba(98, 152, 196, 1) 100%);
+  }
+  .sc-item.rarity-elite {
+    background: linear-gradient(90deg, rgba(196, 118, 255, 0) 0%, rgba(196, 118, 255, 1) 100%);
+  }
+  

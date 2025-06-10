@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Helvetica Neue Light';
+  src: url("../assets/fonts/HelveticaNeueLight.otf");
+}
+@font-face {
+  font-family: 'Helvetica Neue Medium';
+  src: url("../assets/fonts/HelveticaNeueMedium.otf");
+}
+
+/* reset + box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* set your Dark Purple background & base font */
+body, #root {
+  height: 100%;
+  background-color: #0d0021;
+  font-family: 'Helvetica Neue Medium', Arial, sans-serif;
+  color: #EBD7FF;
+}

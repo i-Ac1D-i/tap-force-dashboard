@@ -1,0 +1,99 @@
+.mutagens-widget {
+    background-color: #1a002f;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    color: #EBD7FF;
+    margin: 2rem auto;
+    font-family: 'Helvetica Neue Light', Arial, sans-serif;
+    max-width: 360px;
+  }
+  
+  .m-title {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .m-section {
+    background-color: #2a0042;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .m-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 0.5rem;
+  }
+  
+  .m-header {
+    grid-column: 1 / -1;
+    display: contents;
+  }
+  
+  .m-header span {
+    font-weight: 500;
+  }
+  
+  .m-values {
+    grid-column: 1 / -1;
+    display: contents;
+  }
+  
+  .m-values span {
+    font-weight: 700;
+  }
+  
+  .m-rating {
+    margin-top: 0.75rem;
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.85;
+  }
+  
+  .m-subtitle {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .m-arrow {
+    background: transparent;
+    border: none;
+    font-size: 1.25rem;
+    color: #EBD7FF;
+    cursor: pointer;
+  }
+  
+  .m-arrow:hover {
+    color: #ffffff;
+  }
+  
+  .m-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .m-index {
+    font-size: 0.9rem;
+  }
+  
+  .m-rating {
+    font-size: 0.9rem;
+    opacity: 0.85;
+  }
+
+  .m-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 0.75rem;
+  }
+
+  
