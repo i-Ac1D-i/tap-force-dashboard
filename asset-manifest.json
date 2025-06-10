@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.077565b1.css",
-    "main.js": "/static/js/main.c4cbef71.js",
-    "static/media/HelveticaNeueLight.otf": "/static/media/HelveticaNeueLight.a7c3c98319c1341d5aa5.otf",
-    "static/media/HelveticaNeueMedium.otf": "/static/media/HelveticaNeueMedium.38884ffafe8888205009.otf",
-    "index.html": "/index.html",
-    "main.077565b1.css.map": "/static/css/main.077565b1.css.map",
-    "main.c4cbef71.js.map": "/static/js/main.c4cbef71.js.map"
+    "main.css": "/tap-force-dashboard/static/css/main.912a6e30.css",
+    "main.js": "/tap-force-dashboard/static/js/main.c17a832d.js",
+    "static/media/HelveticaNeueLight.otf": "/tap-force-dashboard/static/media/HelveticaNeueLight.a7c3c98319c1341d5aa5.otf",
+    "static/media/HelveticaNeueMedium.otf": "/tap-force-dashboard/static/media/HelveticaNeueMedium.38884ffafe8888205009.otf",
+    "index.html": "/tap-force-dashboard/index.html",
+    "main.912a6e30.css.map": "/tap-force-dashboard/static/css/main.912a6e30.css.map",
+    "main.c17a832d.js.map": "/tap-force-dashboard/static/js/main.c17a832d.js.map"
   },
   "entrypoints": [
-    "static/css/main.077565b1.css",
-    "static/js/main.c4cbef71.js"
+    "static/css/main.912a6e30.css",
+    "static/js/main.c17a832d.js"
   ]
 }
